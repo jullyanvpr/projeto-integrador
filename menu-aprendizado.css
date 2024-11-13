@@ -20,7 +20,7 @@
 .main {
     height: 80svh;
     width: calc(100vw-30px);
-    background-image: url(../../assets/bg/contato-bg.png);
+    background-image: url(assets/bg/contato-bg.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
