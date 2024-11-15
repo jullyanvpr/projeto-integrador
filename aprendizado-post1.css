@@ -18,7 +18,7 @@
 }
 
 .main {
-    height: 200svh;
+    height: 435svh;
     width: calc(100vw-30px);
     background-color: var(--white);
     display: flex;
@@ -55,7 +55,11 @@
     /* align-items: flex-start; */
 }
 
-.blog-title{
+.blog-headline-image {
+    max-width: 100%;
+}
+
+.blog-headline-title{
     color: var(--orange);
     font-weight: 700;   
     font-size: 3rem;
@@ -63,10 +67,10 @@
     margin-top: 60px;
 }
 
-.blog-subtitle {
+.blog-headline-subtitle {
     text-align: center;
     font-size: 1.1rem;
-    margin-top: 30px;
+    margin-top: 15px;
 }
 
 .blog-text {
@@ -74,4 +78,81 @@
     display: flex;
     flex-direction: column;
     /* align-items: flex-start; */
+}
+
+.blog-text-title {
+    color: var(--orange);
+    font-weight: 700;
+    font-size: 2rem;
+    letter-spacing: -2px;
+    margin-top: 30px;
+}
+
+.blog-text-paragraph {
+    text-align: justify;
+    font-size: 1.1rem;
+    margin-top: 15px;
+}
+
+.blog-text-paragraph-focus {
+    font-weight: 700;
+    color: var(--orange);
+    text-decoration: none;
+}
+
+.blog-text-image {
+    margin-top: 15px;
+}
+
+.blog-text-list {
+    text-decoration: none;
+    margin-top: 15px;
+}
+
+.blog-text-list-item {
+    font-size: 1.1rem;
+    margin-top: 15px;
+}
+
+.blog-text-list-bullet {
+    color: var(--orange);
+    font-size: 1rem;
+}
+
+.blog-video {
+    margin-top: 30px;
+    border: solid 2px var(--orange);
+    border-radius: 20px;
+}
+
+.blog-text-atividade {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.blog-text-atividade-button {
+    padding: 5px 8px;
+    color: var(--orange);
+    border: solid var(--orange) 1.5px;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: var(--white);
+    transition: .2s;
+}
+
+.blog-text-atividade-button:hover {
+    background-color: var(--lightorange);
+
+}
+.atividade-resposta {
+    margin-left: 15px;
+    display: none;
+}
+
+.blog-text-toplink {
+    margin-top: 45px;
+    font-size: .8rem;
+    text-decoration: underline;
+    color: var(--orange);
 }
