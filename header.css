@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+
+:root {
+    --blue: #ba3200;
+    --lightorange: #ffe1d6;
+    --lightblue: #e2f4ff;
+    --darkgrey: #252d44;
+    --white: #ffffff;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: "karla";
+}
+
+.navbar {
+    height: 5rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+    margin-top: 20px;
+}
+
+.navbar_img_logo {
+    max-width: 8rem;
+    /* Torna o arquivo PNG em branco */
+    filter: invert(100%) sepia(100%) saturate(1%) hue-rotate(152deg) brightness(101%) contrast(102%);
+}
+
+.navbar_menu {
+    display: flex;
+    gap: 70px;
+}
+
+.navbar_menu_item {
+    text-decoration: none;
+    color: var(--white);
+    transition: font-size .1s ease-in-out;    
+}
+
+.navbar_menu_item:hover {
+    font-size: 110%;
+}
+
+
+.navbar_button {
+    padding: 8px 12px;
+    color: var(--white);
+    background-color: var(--blue);
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+}

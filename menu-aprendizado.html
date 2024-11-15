@@ -4,39 +4,94 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="assets/icons/favicon_na.ico" type="image/x-icon">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="header.css">
     <link rel="stylesheet" href="menu-aprendizado.css">
-    <title>NetAcademy | Contato</title>
+    <title>NetAcademy | Aprendizado</title>
 </head>
 <body>
     <main class="main">
         <div class="background">
             <header></header>
-            <section class="contato">
-                <div class="contato_text"a>
-                    <h1 class="contato_title">Fale com nossa equipe</h1>
-                    <p class="contato_description">Compartilhe suas ideias e ajude a moldar os próximos tópicos e cursos, contribuindo para o crescimento do nosso portal de aprendizado.</p>
+            <section class="aprendizado">
+                <div class="aprendizado-text">
+                    <h1 class="aprendizado_title">Aprendizado</h1>
+                    <div class="basico">
+                        <div class="basico-line"></div>
+                        <h2 class="basico-text">Básico</h2>
+                    </div>
                 </div>
-                <form action="" class="form">
-                    <div class="form_info">
-                        <div class="form_container">
-                            <label for="inputFirstName" class="form_label">Nome</label>
-                            <input id="inputFirstName" name="firstName" class="form_input border_change" type="text" pattern="[A-Za-z09]{3,20}" placeholder="Digite seu nome..." required>
-                        </div>
-                        <div class="form_container">
-                            <label for="inputEmail" class="form_label">Email</label>
-                            <input id="inputEmail" type="email" class="form_input border_change" placeholder="exemplo@email.com" required>
-                        </div>
-                        <div class="form_container">
-                            <label for="inputPhone" class="form_label">Fone</label>
-                            <input id="inputPhone" type="tel" pattern="[0-9]{2}-[0-9]{5}-[0-9]{4}" class="form_input border_change" placeholder="85-99158-8774"  required>
-                        </div>
+                <div class="aprendizado-cards-layout">
+                    <a href="aprendizado-post1.html" class="card" target="_blank">
+                        <h3 class="card-title">O que são redes?</h3>
+                        <p class="card-subtitle">O que são redes, como usar redes, componentes de uma rede.</p>
+                        <img src="./assets/icons/icon-1star.png" alt="" class="card-star">
+                    </a>
+                    <div class="card">
+                        <h3 class="card-title">Componentes de rede</h3>
+                        <p class="card-subtitle">Adaptadores de rede, switches, hubs e repetidores.</p>
+                        <img src="./assets/icons/icon-1star.png" alt="" class="card-star">
                     </div>
-                    <div class="message">
-                        <label for="messageBox" class="form_label">Message</label>
-                        <textarea name="messageBox" id="messageBox" class="messageBox border_change" placeholder="Describe your issue here..." maxlength="450" required></textarea>
-                        <div id="charCount" class="charCount">450 characters remaining</div>
+                    <div class="card">
+                        <h3 class="card-title">O que é endereço IP</h3>
+                        <p class="card-subtitle">Identificando dispositivos na rede.</p>
+                        <img src="./assets/icons/icon-1star.png" alt="" class="card-star">
                     </div>
-                </form>                
+                    <div class="card">
+                        <h3 class="card-title">hardware básico</h3>
+                        <p class="card-subtitle">Componentes essenciais de um computador.</p>
+                        <img src="./assets/icons/icon-1star.png" alt="" class="card-star">
+                    </div>
+                    <div class="card">
+                        <h3 class="card-title">O que é um Firewall?</h3>
+                        <p class="card-subtitle">Proteção contra acessos indesejados na rede</p>
+                        <img src="./assets/icons/icon-2stars.png" alt="" class="card-star">
+                    </div>
+                    <div class="card">
+                        <h3 class="card-title">O que é uma rede Wi-Fi?</h3>
+                        <p class="card-subtitle">O que são redes, como usar redes, componentes de uma rede.</p>
+                        <img src="./assets/icons/icon-2stars.png" alt="" class="card-star">
+                    </div>
+                </div>
+                <div class="aprendizado-text">
+                    <!-- <h1 class="aprendizado_title">Aprendizado</h1> -->
+                    <div class="basico" style="margin-top: 100px;">
+                        <div class="basico-line"></div>
+                        <h2 class="basico-text">Intermediário</h2>
+                    </div>
+                </div>
+                <div class="aprendizado-cards-layout">
+                    <div class="card">
+                        <h3 class="card-title">O que é<br>DNS</h3>
+                        <p class="card-subtitle">Traduzindo nomes de domínio para IPs.</p>
+                        <img src="./assets/icons/icon-2stars.png" alt="" class="card-star">
+                    </div>
+                    <div class="card">
+                        <h3 class="card-title" style="font-size: 1.6rem;">Tipos de cabos de rede</h3>
+                        <p class="card-subtitle">Diferentes conectores para transmissão de dados.</p>
+                        <img src="./assets/icons/icon-2stars.png" alt="" class="card-star">
+                    </div>
+                    <div class="card">
+                        <h3 class="card-title">Modems e roteadores</h3>
+                        <p class="card-subtitle">O que são redes, como usar redes, componentes de uma rede.</p>
+                        <img src="./assets/icons/icon-3stars.png" alt="" class="card-star">
+                    </div>
+                    <div class="card">
+                        <h3 class="card-title"><span style="font-size: 1.4rem;">Endereçamento</span> Ipv4 e Ipv6</h3>
+                        <p class="card-subtitle">O que são redes, como usar redes, componentes de uma rede.</p>
+                        <img src="./assets/icons/icon-3stars.png" alt="" class="card-star">
+                    </div>
+                    <div class="card">
+                        <h3 class="card-title">O que é<br>VPN?</h3>
+                        <p class="card-subtitle">Conexão segura e privada na internet.</p>
+                        <img src="./assets/icons/icon-3stars.png" alt="" class="card-star">
+                    </div>
+                    <div class="card">
+                        <h3 class="card-title">traceroute e ping</h3>
+                        <p class="card-subtitle">Ferramentas de diagnóstico de redes.</p>
+                        <img src="./assets/icons/icon-1star.png" alt="" class="card-star">
+                    </div>
+                </div>                
             </section>
         </div>
     </main>
