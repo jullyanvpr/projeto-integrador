@@ -9,10 +9,10 @@ Largura padrão para o design:
 
 ## Cores
 
-- Azul: #72bce6
-- Branco #ffffff
+- Laranja: #da3d03
+- Laranja claro: #ffe1d6
 - Cinza escuro: #252d44
-- Ciano claro: #e2f4ff
+- Branco #ffffff
 
 ## Fontes
 
