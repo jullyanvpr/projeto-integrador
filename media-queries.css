@@ -25,21 +25,7 @@
 
     .navbar_menu {
         gap: 40px
-    }
-
-    .hero_title{
-        width: 400px;
-        font-size: 3rem;
-    }
-
-    .patreons {
-        height: 6rem;
-    }
-
-    .patreons_logo {
-        width: 6rem;
-    }
-    
+    }     
 
     .contato_title{
         font-size: 3rem;
@@ -47,12 +33,5 @@
 
     .contato_description {
         font-size: 1rem;
-    }
-}
-
-
-@media (max-height: 940px) {
-    .hero {
-        margin-top: 60px;
     }
 }

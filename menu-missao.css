@@ -118,7 +118,7 @@
 }
 
 .background-profile {
-    width: 300px;
+    width: 250px;
     height: 500px;
     background-color: var(--darkgrey);
     display: flex;
