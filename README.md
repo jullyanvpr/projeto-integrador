@@ -20,7 +20,7 @@ It's a simple site for teaching computer networking.
 
 ### Links
 
-- Live Site URL: [Netlify](https://66c9ac93d921d3bc5d7a7ecb--loquacious-quokka-3e1d21.netlify.app/)
+- Live Site URL: [Netlify](loquacious-quokka-3e1d21.netlify.app)
 
 
 ### Screenshot
